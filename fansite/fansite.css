@@ -1,0 +1,75 @@
+#titre1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}
+
+#text {
+    text-transform: capitalize;
+    color: white;
+}
+
+#liens {
+    text-transform: capitalize;
+}
+#twitter {
+    width: 15%
+}
+#loldle {
+    width: 45%;
+}
+#lec {
+    width: 25%;
+}
+#lfl {
+    width: 55%;
+}
+#navbar {
+text-align: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+justify-content: space-around;
+align-items: center;
+}
+body {
+    background: linear-gradient(to bottom, #082b66, #467edf) no-repeat center/cover;
+    background-attachment: fixed;
+}
+#réseaux {
+    text-align: center;
+    padding: 15px;
+}
+.realisations {
+    width: 100%;
+    text-align: center;
+}
+.realisations img{
+    height: auto;
+    width: auto;
+    padding: 1%;
+    align-items: center;
+}
+
+.league {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.league li {
+    text-align: center;
+}
+
+.twitter-timeline {
+    margin: 0px 100px;
+    padding: 20px 0px;
+}
+#kilo {
+    color: white;
+}
+#contactTitre {
+    color: white;
+}

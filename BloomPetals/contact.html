@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="BarreDeNav">
+            <a href="index.html">Accueil</a>
+            <a href="entreprise.html">Entreprise</a>
+            <a href="realisation.html">Réalisation</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <h1 id="ContactTitre">
+            Contactez-nous
+        </h1>
+    </header>
+    <section class="container8">
+
+        <header>
+            <h1>
+                Remplissez ce formulaire pour nous contacter
+            </h1>
+        </header>
+        <article >
+            <label class="box12" for="CivilitéSéléction">Choisisez votre civilité :</label>
+            <select name="pets" id="CivilitéSéléction">
+                <option value="Civilité">----</option>
+                <option class="box12" value="Mr.">Mr.</option>
+                <option class="box12" value="Mme.">Mme.</option>
+            </select>
+            <ul>
+                <li>
+                    <label class="box12" for="Nom">Nom</label>
+                    <input class="box12" type="Nom" id="Nom" name="NomUtilisateur">
+                </li>
+                <li>
+                    <label class="box12" for="mail">E-mail :</label>
+                    <input class="box12" type="email" id="mail" name="mailUtilisateur" />
+                </li>
+                <li>
+                    <label class="box12" for="AdressePostal">Adresse Postal</label>
+                    <input class="box12" type="Adresse" id="AdressePostal" name="AdresseUtilisateur">
+                </li>
+            </ul>
+            <article>
+                <input class="box12" type="checkbox" id="Politique" name="PolitiqueDeConfidantialité" unchecked />
+                <label class="box12" for="Politique">Acceptez vous notre <a href="https://docs.google.com/document/d/1ZKKopfwQHhhPq5dmaAbGRQiLfI_eYFWE1lh-FEgHjes/edit?usp=sharing">Politique de confidantialité</a></label>
+            </article>
+            <input class="box12" type="submit" value="Envoyer le formulaire" />
+        </article>
+    </section>
+</body>
+
+</html>

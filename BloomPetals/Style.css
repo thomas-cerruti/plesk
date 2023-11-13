@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Griffy&display=swap');
+
+
+body {
+    background-image: url(Images/background.jpg);
+}
+
+#SiteCrée {
+    text-align: center;
+}
+.BarreDeNav {
+    background-color: beige;
+    border-radius: 20;
+    margin: 20px 10px;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid;
+    border-color: black;
+    list-style-type: none;
+    padding: 10px;
+    font-size: 10;
+
+}
+
+.BarreDeNav a {
+    color: palevioletred;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 3px 7%;
+    font-size: 20px;
+}
+
+.BarreDeNav a:hover {
+    border-color: palevioletred;
+}
+
+#NameHome {
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Great Vibes";
+    font-size: 50px;
+    text-shadow: 1px 0px 10px red;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+#PreseBloom {
+    padding-bottom: 10px;
+    background-size: cover;
+    background-color: beige;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+#Welcome {
+    font-family: "Great Vibes";
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+#WelcomeText {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box1 {
+    display: grid;
+    max-width: 250px;
+    max-height: 250px;
+    outline: solid palevioletred;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px pink;
+
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.box2 {
+    box-sizing: content-box;
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-size: cover;
+    background-color: beige;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 20px;
+    font-family: "Great Vibes";
+    letter-spacing: 2px;
+}
+
+.box3 {
+    box-sizing: content-box;
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-size: cover;
+    background-color: beige;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box4 {
+    display: grid;
+    max-width: 250px;
+    max-height: 250px;
+    outline: solid palevioletred;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px pink;
+
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.box5 {
+    background-color: beige;
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.box6 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box7 {
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#Pourquoi_Choisir_BloomPetals {
+    text-align: center;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: "Great Vibes";
+
+}
+
+.container5 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box8 {
+    text-align: center;
+    background-color: beige;
+    margin-left: 45px;
+    margin-right: 45px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box9 {
+    text-align: center;
+    background-color: beige;
+    margin-left: 45px;
+    margin-right: 45px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#EntrepriseText {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box10 {
+    display: grid;
+    max-width: 250px;
+    max-height: 250px;
+    outline: solid palevioletred;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px pink;
+}
+
+#NosRéa {
+    text-align: center;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: "Great Vibes";
+}
+
+.container7 {
+    display: flex;
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box11 {
+    display: grid;
+    max-width: 250px;
+    max-height: 250px;
+    outline: solid palevioletred;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px pink;
+    margin: 20px;
+}
+
+#ContactTitre {
+    text-align: center;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: "Great Vibes";
+}
+
+.container8 {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px
+}
+
+.box12 {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#QuiSommeNous {
+    font-family: "Great Vibes";
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 10px;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
